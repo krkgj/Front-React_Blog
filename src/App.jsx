@@ -1,17 +1,11 @@
-import { Row, Col, Container } from "react-bootstrap";
-import Main from "pages/Main";
+import Layout from "components/layout/Layout";
+import { Container } from "react-bootstrap";
 function App() {
-  return (
-    <Container fluid>
-      <Row>
-        <Col xs={6}>1 of 1</Col>
-        <Col xs={6}>2 of 1</Col>
-        <Col xs={12}>
-          <Main></Main>
-        </Col>
-      </Row>
-    </Container>
-  );
+	return (
+		<Layout>
+			<Container>dd</Container>
+		</Layout>
+	);
 }
 
 export default App;
